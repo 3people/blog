@@ -1,0 +1,15 @@
+/**
+ * Shiki 코드 블록 배경색
+ * 
+ * 순수 grayscale - 명도만 다르게
+ * Light: #ffffff → #f5f5f5
+ * Dark: #050505 → #141414
+ */
+
+:root {
+  --shiki-bg: #f5f5f5;
+}
+
+html.dark {
+  --shiki-bg: #141414;
+}
